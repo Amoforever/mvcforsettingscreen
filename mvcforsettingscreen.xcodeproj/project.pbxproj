@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		CE454F2A2A7ADC6600A65C1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F292A7ADC6600A65C1E /* AppDelegate.swift */; };
 		CE454F2C2A7ADC6600A65C1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F2B2A7ADC6600A65C1E /* SceneDelegate.swift */; };
-		CE454F2E2A7ADC6600A65C1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F2D2A7ADC6600A65C1E /* ViewController.swift */; };
-		CE454F312A7ADC6600A65C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE454F2F2A7ADC6600A65C1E /* Main.storyboard */; };
+		CE454F2E2A7ADC6600A65C1E /* ControllerForSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F2D2A7ADC6600A65C1E /* ControllerForSettingScreen.swift */; };
 		CE454F332A7ADC6700A65C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE454F322A7ADC6700A65C1E /* Assets.xcassets */; };
 		CE454F362A7ADC6700A65C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE454F342A7ADC6700A65C1E /* LaunchScreen.storyboard */; };
+		CE454F442A7ADEAB00A65C1E /* ModelForSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F432A7ADEAB00A65C1E /* ModelForSettingScreen.swift */; };
+		CE454F462A7ADF4E00A65C1E /* ViewOfSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F452A7ADF4E00A65C1E /* ViewOfSettingScreen.swift */; };
+		CE454F482A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F472A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift */; };
+		CE454F4A2A7AE32700A65C1E /* TableCellViewForSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F492A7AE32700A65C1E /* TableCellViewForSettingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE454F262A7ADC6600A65C1E /* mvcforsettingscreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvcforsettingscreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE454F292A7ADC6600A65C1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE454F2B2A7ADC6600A65C1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE454F2D2A7ADC6600A65C1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE454F302A7ADC6600A65C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE454F2D2A7ADC6600A65C1E /* ControllerForSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerForSettingScreen.swift; sourceTree = "<group>"; };
 		CE454F322A7ADC6700A65C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE454F352A7ADC6700A65C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE454F372A7ADC6700A65C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE454F432A7ADEAB00A65C1E /* ModelForSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForSettingScreen.swift; sourceTree = "<group>"; };
+		CE454F452A7ADF4E00A65C1E /* ViewOfSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOfSettingScreen.swift; sourceTree = "<group>"; };
+		CE454F472A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewOfSettingScreen.swift; sourceTree = "<group>"; };
+		CE454F492A7AE32700A65C1E /* TableCellViewForSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellViewForSettingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,66 @@
 		CE454F282A7ADC6600A65C1E /* mvcforsettingscreen */ = {
 			isa = PBXGroup;
 			children = (
-				CE454F292A7ADC6600A65C1E /* AppDelegate.swift */,
-				CE454F2B2A7ADC6600A65C1E /* SceneDelegate.swift */,
-				CE454F2D2A7ADC6600A65C1E /* ViewController.swift */,
-				CE454F2F2A7ADC6600A65C1E /* Main.storyboard */,
+				CE454F3E2A7ADDA400A65C1E /* Resourses */,
+				CE454F3D2A7ADD9600A65C1E /* Sourses */,
+			);
+			path = mvcforsettingscreen;
+			sourceTree = "<group>";
+		};
+		CE454F3D2A7ADD9600A65C1E /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				CE454F422A7ADDF100A65C1E /* Model */,
+				CE454F412A7ADDEA00A65C1E /* View */,
+				CE454F402A7ADDD700A65C1E /* Controller */,
+				CE454F3F2A7ADDD000A65C1E /* App */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		CE454F3E2A7ADDA400A65C1E /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				CE454F322A7ADC6700A65C1E /* Assets.xcassets */,
 				CE454F342A7ADC6700A65C1E /* LaunchScreen.storyboard */,
 				CE454F372A7ADC6700A65C1E /* Info.plist */,
 			);
-			path = mvcforsettingscreen;
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CE454F3F2A7ADDD000A65C1E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CE454F292A7ADC6600A65C1E /* AppDelegate.swift */,
+				CE454F2B2A7ADC6600A65C1E /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CE454F402A7ADDD700A65C1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE454F2D2A7ADC6600A65C1E /* ControllerForSettingScreen.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE454F412A7ADDEA00A65C1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE454F452A7ADF4E00A65C1E /* ViewOfSettingScreen.swift */,
+				CE454F472A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift */,
+				CE454F492A7AE32700A65C1E /* TableCellViewForSettingScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE454F422A7ADDF100A65C1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE454F432A7ADEAB00A65C1E /* ModelForSettingScreen.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +184,6 @@
 			files = (
 				CE454F362A7ADC6700A65C1E /* LaunchScreen.storyboard in Resources */,
 				CE454F332A7ADC6700A65C1E /* Assets.xcassets in Resources */,
-				CE454F312A7ADC6600A65C1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE454F2E2A7ADC6600A65C1E /* ViewController.swift in Sources */,
+				CE454F442A7ADEAB00A65C1E /* ModelForSettingScreen.swift in Sources */,
+				CE454F482A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift in Sources */,
+				CE454F462A7ADF4E00A65C1E /* ViewOfSettingScreen.swift in Sources */,
+				CE454F2E2A7ADC6600A65C1E /* ControllerForSettingScreen.swift in Sources */,
+				CE454F4A2A7AE32700A65C1E /* TableCellViewForSettingScreen.swift in Sources */,
 				CE454F2A2A7ADC6600A65C1E /* AppDelegate.swift in Sources */,
 				CE454F2C2A7ADC6600A65C1E /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +207,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE454F2F2A7ADC6600A65C1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE454F302A7ADC6600A65C1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE454F342A7ADC6700A65C1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,10 +340,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mvcforsettingscreen/Info.plist;
+				INFOPLIST_FILE = mvcforsettingscreen/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +365,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = mvcforsettingscreen/Info.plist;
+				INFOPLIST_FILE = mvcforsettingscreen/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
