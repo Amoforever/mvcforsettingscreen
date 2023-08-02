@@ -15,6 +15,7 @@
 		CE454F442A7ADEAB00A65C1E /* ModelForSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F432A7ADEAB00A65C1E /* ModelForSettingScreen.swift */; };
 		CE454F462A7ADF4E00A65C1E /* ViewOfSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F452A7ADF4E00A65C1E /* ViewOfSettingScreen.swift */; };
 		CE454F482A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F472A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift */; };
+		CE454F4A2A7AE32700A65C1E /* TableCellViewForSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454F492A7AE32700A65C1E /* TableCellViewForSettingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		CE454F432A7ADEAB00A65C1E /* ModelForSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelForSettingScreen.swift; sourceTree = "<group>"; };
 		CE454F452A7ADF4E00A65C1E /* ViewOfSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOfSettingScreen.swift; sourceTree = "<group>"; };
 		CE454F472A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewOfSettingScreen.swift; sourceTree = "<group>"; };
+		CE454F492A7AE32700A65C1E /* TableCellViewForSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellViewForSettingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				CE454F452A7ADF4E00A65C1E /* ViewOfSettingScreen.swift */,
 				CE454F472A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift */,
+				CE454F492A7AE32700A65C1E /* TableCellViewForSettingScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				CE454F482A7AE2C100A65C1E /* DetailViewOfSettingScreen.swift in Sources */,
 				CE454F462A7ADF4E00A65C1E /* ViewOfSettingScreen.swift in Sources */,
 				CE454F2E2A7ADC6600A65C1E /* ViewController.swift in Sources */,
+				CE454F4A2A7AE32700A65C1E /* TableCellViewForSettingScreen.swift in Sources */,
 				CE454F2A2A7ADC6600A65C1E /* AppDelegate.swift in Sources */,
 				CE454F2C2A7ADC6600A65C1E /* SceneDelegate.swift in Sources */,
 			);
